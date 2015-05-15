@@ -7,26 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42BD2FD19E8728BC5040BAF8 /* libPods-OEWA_Sampler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBC0FAEB0C4A6BB9AF70C62 /* libPods-OEWA_Sampler.a */; };
 		EA2A7E641B05C65800B121DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A7E631B05C65800B121DA /* main.m */; };
 		EA2A7E671B05C65800B121DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A7E661B05C65800B121DA /* AppDelegate.m */; };
 		EA2A7E6A1B05C65800B121DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A7E691B05C65800B121DA /* ViewController.m */; };
 		EA2A7E6D1B05C65800B121DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2A7E6B1B05C65800B121DA /* Main.storyboard */; };
 		EA2A7E6F1B05C65800B121DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2A7E6E1B05C65800B121DA /* Images.xcassets */; };
 		EA2A7E721B05C65800B121DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2A7E701B05C65800B121DA /* LaunchScreen.xib */; };
-		EA2A7E7E1B05C65800B121DA /* OEWA_SamplerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A7E7D1B05C65800B121DA /* OEWA_SamplerTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		EA2A7E781B05C65800B121DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA2A7E561B05C65800B121DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EA2A7E5D1B05C65800B121DA;
-			remoteInfo = OEWA_Sampler;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		724660DC53F80AAA2C4F8B6C /* Pods-OEWA_Sampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OEWA_Sampler.release.xcconfig"; path = "Pods/Target Support Files/Pods-OEWA_Sampler/Pods-OEWA_Sampler.release.xcconfig"; sourceTree = "<group>"; };
+		AC273DBAAD872428704F7EBE /* Pods-OEWA_Sampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OEWA_Sampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OEWA_Sampler/Pods-OEWA_Sampler.debug.xcconfig"; sourceTree = "<group>"; };
+		BCBC0FAEB0C4A6BB9AF70C62 /* libPods-OEWA_Sampler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OEWA_Sampler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2A7E5E1B05C65800B121DA /* OEWA_Sampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OEWA_Sampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2A7E621B05C65800B121DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA2A7E631B05C65800B121DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,9 +30,6 @@
 		EA2A7E6C1B05C65800B121DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA2A7E6E1B05C65800B121DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA2A7E711B05C65800B121DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EA2A7E771B05C65800B121DA /* OEWA_SamplerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OEWA_SamplerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA2A7E7C1B05C65800B121DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA2A7E7D1B05C65800B121DA /* OEWA_SamplerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OEWA_SamplerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,25 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA2A7E741B05C65800B121DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				42BD2FD19E8728BC5040BAF8 /* libPods-OEWA_Sampler.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		675F1FA692044D2F78560BBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC273DBAAD872428704F7EBE /* Pods-OEWA_Sampler.debug.xcconfig */,
+				724660DC53F80AAA2C4F8B6C /* Pods-OEWA_Sampler.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B749C8C68CE1B0D78754F21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCBC0FAEB0C4A6BB9AF70C62 /* libPods-OEWA_Sampler.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA2A7E551B05C65800B121DA = {
 			isa = PBXGroup;
 			children = (
 				EA2A7E601B05C65800B121DA /* OEWA_Sampler */,
-				EA2A7E7A1B05C65800B121DA /* OEWA_SamplerTests */,
 				EA2A7E5F1B05C65800B121DA /* Products */,
+				675F1FA692044D2F78560BBB /* Pods */,
+				7B749C8C68CE1B0D78754F21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				EA2A7E5E1B05C65800B121DA /* OEWA_Sampler.app */,
-				EA2A7E771B05C65800B121DA /* OEWA_SamplerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,23 +103,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EA2A7E7A1B05C65800B121DA /* OEWA_SamplerTests */ = {
-			isa = PBXGroup;
-			children = (
-				EA2A7E7D1B05C65800B121DA /* OEWA_SamplerTests.m */,
-				EA2A7E7B1B05C65800B121DA /* Supporting Files */,
-			);
-			path = OEWA_SamplerTests;
-			sourceTree = "<group>";
-		};
-		EA2A7E7B1B05C65800B121DA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EA2A7E7C1B05C65800B121DA /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA2A7E811B05C65800B121DA /* Build configuration list for PBXNativeTarget "OEWA_Sampler" */;
 			buildPhases = (
+				05933A8B5CD3B56DA77AA727 /* Check Pods Manifest.lock */,
 				EA2A7E5A1B05C65800B121DA /* Sources */,
 				EA2A7E5B1B05C65800B121DA /* Frameworks */,
 				EA2A7E5C1B05C65800B121DA /* Resources */,
+				41C81BFA307B6B87454C6C6D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,24 +124,6 @@
 			productName = OEWA_Sampler;
 			productReference = EA2A7E5E1B05C65800B121DA /* OEWA_Sampler.app */;
 			productType = "com.apple.product-type.application";
-		};
-		EA2A7E761B05C65800B121DA /* OEWA_SamplerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA2A7E841B05C65800B121DA /* Build configuration list for PBXNativeTarget "OEWA_SamplerTests" */;
-			buildPhases = (
-				EA2A7E731B05C65800B121DA /* Sources */,
-				EA2A7E741B05C65800B121DA /* Frameworks */,
-				EA2A7E751B05C65800B121DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EA2A7E791B05C65800B121DA /* PBXTargetDependency */,
-			);
-			name = OEWA_SamplerTests;
-			productName = OEWA_SamplerTests;
-			productReference = EA2A7E771B05C65800B121DA /* OEWA_SamplerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,10 +136,6 @@
 				TargetAttributes = {
 					EA2A7E5D1B05C65800B121DA = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					EA2A7E761B05C65800B121DA = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = EA2A7E5D1B05C65800B121DA;
 					};
 				};
 			};
@@ -189,7 +153,6 @@
 			projectRoot = "";
 			targets = (
 				EA2A7E5D1B05C65800B121DA /* OEWA_Sampler */,
-				EA2A7E761B05C65800B121DA /* OEWA_SamplerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,14 +168,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA2A7E751B05C65800B121DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05933A8B5CD3B56DA77AA727 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		41C81BFA307B6B87454C6C6D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OEWA_Sampler/Pods-OEWA_Sampler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA2A7E5A1B05C65800B121DA /* Sources */ = {
@@ -225,23 +214,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA2A7E731B05C65800B121DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA2A7E7E1B05C65800B121DA /* OEWA_SamplerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EA2A7E791B05C65800B121DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EA2A7E5D1B05C65800B121DA /* OEWA_Sampler */;
-			targetProxy = EA2A7E781B05C65800B121DA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EA2A7E6B1B05C65800B121DA /* Main.storyboard */ = {
@@ -347,6 +320,7 @@
 		};
 		EA2A7E821B05C65800B121DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC273DBAAD872428704F7EBE /* Pods-OEWA_Sampler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OEWA_Sampler/Info.plist;
@@ -357,45 +331,12 @@
 		};
 		EA2A7E831B05C65800B121DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724660DC53F80AAA2C4F8B6C /* Pods-OEWA_Sampler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OEWA_Sampler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		EA2A7E851B05C65800B121DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = OEWA_SamplerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OEWA_Sampler.app/OEWA_Sampler";
-			};
-			name = Debug;
-		};
-		EA2A7E861B05C65800B121DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = OEWA_SamplerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OEWA_Sampler.app/OEWA_Sampler";
 			};
 			name = Release;
 		};
@@ -418,14 +359,7 @@
 				EA2A7E831B05C65800B121DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		EA2A7E841B05C65800B121DA /* Build configuration list for PBXNativeTarget "OEWA_SamplerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA2A7E851B05C65800B121DA /* Debug */,
-				EA2A7E861B05C65800B121DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
